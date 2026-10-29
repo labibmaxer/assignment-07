@@ -91,6 +91,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$KeenKeeper$2e$png$
 ;
 ;
 ;
+;
 const Navbar = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "navbar bg-base-100 shadow-sm container mx-auto",
@@ -120,24 +121,24 @@ const Navbar = ()=>{
                                         d: "M4 6h16M4 12h8m-8 6h16"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/nav.jsx",
-                                        lineNumber: 11,
+                                        lineNumber: 12,
                                         columnNumber: 142
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     " "
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/nav.jsx",
-                                lineNumber: 11,
+                                lineNumber: 12,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/components/nav.jsx",
-                            lineNumber: 10,
+                            lineNumber: 11,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/components/nav.jsx",
-                        lineNumber: 9,
+                        lineNumber: 10,
                         columnNumber: 5
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__["default"], {
@@ -145,44 +146,44 @@ const Navbar = ()=>{
                         alt: "KeenKeeper"
                     }, void 0, false, {
                         fileName: "[project]/src/components/nav.jsx",
-                        lineNumber: 17,
+                        lineNumber: 18,
                         columnNumber: 1
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/nav.jsx",
-                lineNumber: 8,
+                lineNumber: 9,
                 columnNumber: 3
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "navbar-end",
+                className: "navbar-end gap-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        className: "btn",
+                        className: "btn bg-[#244D3F] font-bold text-white",
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/src/components/nav.jsx",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 5
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        className: "btn",
+                        className: "btn bg-[#244D3F] font-bold text-white",
                         children: "Timeline"
                     }, void 0, false, {
                         fileName: "[project]/src/components/nav.jsx",
-                        lineNumber: 22,
-                        columnNumber: 9
+                        lineNumber: 23,
+                        columnNumber: 5
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/nav.jsx",
-                lineNumber: 20,
+                lineNumber: 21,
                 columnNumber: 3
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/nav.jsx",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 7
     }, ("TURBOPACK compile-time value", void 0));
 };

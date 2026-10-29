@@ -119,3 +119,41 @@
 {"timestamp":"00:10:58.847","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
 {"timestamp":"00:11:00.663","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
 {"timestamp":"00:11:08.153","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"00:12:36.015","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:12:37.246","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:12:39.031","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:12:40.129","source":"Server","level":"LOG","message":"✓ Compiled in 17ms"}
+{"timestamp":"00:12:42.963","source":"Server","level":"LOG","message":"✓ Compiled in 316ms"}
+{"timestamp":"00:12:45.958","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:13:06.502","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"00:13:06.557","source":"Server","level":"LOG","message":"✓ Compiled in 194ms"}
+{"timestamp":"00:13:06.917","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:13:15.764","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
+{"timestamp":"00:13:21.756","source":"Server","level":"LOG","message":"✓ Compiled in 51ms"}
+{"timestamp":"00:13:26.291","source":"Server","level":"LOG","message":"✓ Compiled in 74ms"}
+{"timestamp":"00:17:41.298","source":"Server","level":"LOG","message":"✓ Compiled in 67ms"}
+{"timestamp":"00:17:41.814","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:17:48.821","source":"Server","level":"LOG","message":"✓ Compiled in 1080ms"}
+{"timestamp":"00:17:50.263","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:17:51.514","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"00:18:18.370","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"00:18:21.981","source":"Server","level":"LOG","message":"✓ Compiled in 109ms"}
+{"timestamp":"00:18:22.062","source":"Server","level":"ERROR","message":"⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return FiClock instead of <FiClock /> from render. Or maybe you meant to call this function rather than return it.\n  <a>import {function FiClock}{...}</a>\n            ^^^^^^^^^^^^^^^^^^"}
+{"timestamp":"00:18:22.096","source":"Server","level":"ERROR","message":"⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return FiClock instead of <FiClock /> from render. Or maybe you meant to call this function rather than return it.\n  <a>import {function FiClock}{...}</a>\n            ^^^^^^^^^^^^^^^^^^"}
+{"timestamp":"00:18:22.132","source":"Server","level":"ERROR","message":"⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return FiClock instead of <FiClock /> from render. Or maybe you meant to call this function rather than return it.\n  <a>import {function FiClock}{...}</a>\n            ^^^^^^^^^^^^^^^^^^"}
+{"timestamp":"00:18:22.176","source":"Server","level":"ERROR","message":"⨯ Error: Functions are not valid as a child of Client Components. This may happen if you return FiClock instead of <FiClock /> from render. Or maybe you meant to call this function rather than return it.\n  <a>import {function FiClock}{...}</a>\n            ^^^^^^^^^^^^^^^^^^"}
+{"timestamp":"00:18:23.567","source":"Server","level":"LOG","message":"✓ Compiled in 84ms"}
+{"timestamp":"00:18:24.234","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:18:24.394","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:18:24.492","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:18:24.515","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:18:29.609","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:18:32.482","source":"Browser","level":"WARN","message":"Image with src \"/_next/static/media/KeenKeeper.12pfyll4oc0i3.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:18:32.482","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/_next/static/media/KeenKeeper.12pfyll4oc0i3.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:18:32.576","source":"Server","level":"LOG","message":"✓ Compiled in 337ms"}
+{"timestamp":"00:19:59.293","source":"Browser","level":"WARN","message":"Image with src \"/_next/static/media/KeenKeeper.12pfyll4oc0i3.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:19:59.293","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/_next/static/media/KeenKeeper.12pfyll4oc0i3.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:20:49.486","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:21:27.959","source":"Server","level":"LOG","message":"✓ Compiled in 298ms"}
+{"timestamp":"00:23:22.143","source":"Server","level":"LOG","message":"✓ Compiled in 50ms"}
+{"timestamp":"00:25:10.847","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}

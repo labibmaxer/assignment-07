@@ -1,7 +1,9 @@
 import React from 'react';
 import Image from 'next/image'
 import logo from "../../public/KeenKeeper.png";
- 
+ import { MdOutlineHome } from "react-icons/md";
+import { FiClock } from "react-icons/fi";
+
 const Navbar = () => {
     return (
       <div className="navbar bg-base-100 shadow-sm container mx-auto">
@@ -17,9 +19,9 @@ const Navbar = () => {
 <Image src={logo} alt="KeenKeeper" />
   </div>
  
-  <div className="navbar-end">
-    <a className="btn">Home</a>
-        <a className="btn">Timeline</a>
+  <div className="navbar-end gap-4">
+    <a className="btn bg-[#244D3F] font-bold text-white"><MdOutlineHome /> Home</a>
+    <a className="btn bg-[#244D3F] font-bold text-white"><FiClock /> Timeline</a>
 
   </div>
 </div>
