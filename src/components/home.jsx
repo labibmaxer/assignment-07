@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from "react-icons/fa";
 
@@ -39,8 +40,7 @@ relationships that matter most. </p>
                 <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
                     {friends.map((friend) => (
                         
-  <div key={friend.id}>
-    <div className='g'> 
+<Link href={`/friends/${friend.id}`} key={friend.id}>    <div className='g'> 
    <div className="card bg-base-100 py-6 text-center flex">
     <div className='shadow-2xl grid w-50 pb-4 rounded-2xl '> 
   <div className="mx-auto h-20 w-20 overflow-hidden rounded-full bg-gray-200">
@@ -58,8 +58,9 @@ relationships that matter most. </p>
 </div>
 
 </div>
+</Link>
 
-   </div>
+   
    
 ))}
 

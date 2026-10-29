@@ -3,6 +3,7 @@ import Image from 'next/image'
 import logo from "../../public/KeenKeeper.png";
  import { MdOutlineHome } from "react-icons/md";
 import { FiClock } from "react-icons/fi";
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -20,8 +21,10 @@ const Navbar = () => {
   </div>
  
   <div className="navbar-end gap-4">
-    <a className="btn bg-[#244D3F] font-bold text-white"><MdOutlineHome /> Home</a>
-    <a className="btn bg-[#244D3F] font-bold text-white"><FiClock /> Timeline</a>
+    {/* <a className="btn bg-[#244D3F] font-bold text-white"><MdOutlineHome /> Home</a> */}
+    {/* <a className="btn bg-[#244D3F] font-bold text-white"><FiClock /> Timeline</a> */}
+   <Link href="/" className="btn bg-[#244D3F] font-bold text-white"><MdOutlineHome /> Home  </Link>
+      <Link href="/timeline" className="btn bg-[#244D3F] font-bold text-white"><FiClock /> Timeline </Link>
 
   </div>
 </div>
