@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400",
+    "email": "sarah.j@example.com",
+    "days_since_contact": 5,
+    "status": "connected",
+    "tags": ["college", "close friend"],
+    "bio": "Met during freshman orientation at university. Enjoys weekend hiking and coffee tasting.",
+    "goal": 7,
+    "next_due_date": "2026-11-03"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Vance",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400",
+    "email": "marcus.vance@example.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["tech", "former colleague"],
+    "bio": "Worked together on frontend development projects. Avid board game enthusiast and cyclist.",
+    "goal": 14,
+    "next_due_date": "2026-10-21"
+  },
+  {
+    "id": 3,
+    "name": "Amina Rahmani",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400",
+    "email": "amina.rahmani@example.com",
+    "days_since_contact": 12,
+    "status": "connected",
+    "tags": ["high school", "childhood"],
+    "bio": "Grew up in the same neighborhood. Passionate about digital photography and indie films.",
+    "goal": 14,
+    "next_due_date": "2026-10-31"
+  },
+  {
+    "id": 4,
+    "name": "David Chen",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400",
+    "email": "dchen@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["college", "roommate"],
+    "bio": "Lived in the same dorm suite for three years. Major open-source contributor and gamer.",
+    "goal": 30,
+    "next_due_date": "2026-10-14"
+  },
+  {
+    "id": 5,
+    "name": "Elena Rostova",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400",
+    "email": "elena.r@example.com",
+    "days_since_contact": 2,
+    "status": "connected",
+    "tags": ["gym", "close friend"],
+    "bio": "Fitness partner and marathon runner. Always down for weekend brunch or outdoor runs.",
+    "goal": 7,
+    "next_due_date": "2026-11-05"
+  },
+  {
+    "id": 6,
+    "name": "Liam O'Connor",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400",
+    "email": "liam.oc@example.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["travel", "music"],
+    "bio": "Met during a backpacking trip abroad. Plays bass guitar in an indie rock band.",
+    "goal": 30,
+    "next_due_date": "2026-09-29"
+  },
+  {
+    "id": 7,
+    "name": "Priya Sharma",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400",
+    "email": "priya.s@example.com",
+    "days_since_contact": 8,
+    "status": "connected",
+    "tags": ["hackathon", "design"],
+    "bio": "UI/UX designer met at a web development hackathon. Loves pottery and typography.",
+    "goal": 10,
+    "next_due_date": "2026-10-31"
+  },
+  {
+    "id": 8,
+    "name": "Julian Thorne",
+    "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400",
+    "email": "jthorne@example.com",
+    "days_since_contact": 1,
+    "status": "connected",
+    "tags": ["mentorship", "tech"],
+    "bio": "Senior developer mentor. Regularly discusses web design trends, Linux, and React performance.",
+    "goal": 14,
+    "next_due_date": "2026-11-11"
+  }
+]    
