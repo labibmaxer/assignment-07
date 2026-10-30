@@ -1,13 +1,11 @@
-
+// 'use client'
         import { FiBell, FiArchive, FiTrash2, FiPhoneCall, FiMessageSquare, FiVideo } from "react-icons/fi";
-
-
-
+import toast from "react-hot-toast";
+import friends from "@/data/friends.json";
+import CheckInbuttons from "@/components/CheckInbuttons";
 const FriendDetails =  async ({params}) => {
     const {id} = await params; 
-
-    const res = await fetch("http://localhost:3000/friends.json");
-    const friends = await res.json();
+ 
 
     const friend = friends.find((f) =>String(f.id)===id);
    const connected = friends.filter((friend) => friend.status === "connected").length;
@@ -72,20 +70,10 @@ const FriendDetails =  async ({params}) => {
     </div>
 
     {/* Quick check-in */}
-    <div className="card bg-base-100 p-6 shadow-sm">
-      <h3 className="font-semibold text-[#244D3F]">Quick Check-In</h3>
-      <div className="mt-4 grid grid-cols-3 gap-3">
-        <button className="flex flex-col items-center gap-2 rounded-lg bg-gray-50 py-6 text-sm hover:bg-gray-100">
-          <FiPhoneCall className="text-xl" /> Call
-        </button>
-        <button className="flex flex-col items-center gap-2 rounded-lg bg-gray-50 py-6 text-sm hover:bg-gray-100">
-          <FiMessageSquare className="text-xl" /> Text
-        </button>
-        <button className="flex flex-col items-center gap-2 rounded-lg bg-gray-50 py-6 text-sm hover:bg-gray-100">
-          <FiVideo className="text-xl" /> Video
-        </button>
-      </div>
-    </div>
+   <div className="card bg-base-100 p-6 shadow-sm">
+  <h3 className="font-semibold text-[#244D3F]">Quick Check-In</h3>
+  <CheckInbuttons friend={friend} />
+</div>
   </div>
 </div>
 

@@ -1,11 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
 import { FaPlus } from "react-icons/fa";
+import friends from "@/data/friends.json";
 
-const Hero = async() => {
-    const data = await fetch("http://localhost:3000/friends.json");
-    const friends = await data.json()
-    console.log(friends);
+const Hero =  () => {
+   
     const connected = friends.filter((friend) => friend.status === "connected").length;
     const overdue = friends.filter((friend) => friend.status === "overdue").length
     return (

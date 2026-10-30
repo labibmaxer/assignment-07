@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///home/labib/projects/assignment-seven/src/context/TimelineContext.jsx"],"sourcesContent":["'use client';\n \nimport React, { createContext, useContext, useState } from 'react';\nconst TimelineContext = createContext();\n\n\nexport const TimelineProvider = ({children}) => {\n\n const [timeline , setTimeline] = useState([]);\n const addEntry = (entry) => setTimeline ((prev) => [entry, ...prev] )\n\n    return (\n        <TimelineContext.Provider value={{addEntry, timeline}}>\n          {children}\n        </TimelineContext.Provider>\n    );\n};\n\nexport const useTimeline = () => useContext(TimelineContext)"],"names":["TimelineContext","TimelineProvider","children","timeline","setTimeline","addEntry","entry","prev","Provider","value","useTimeline"],"mappings":";;;;;;;AAEA;AAFA;;;AAGA,MAAMA,gCAAkB,IAAA,sNAAa;AAG9B,MAAMC,mBAAmB,CAAC,EAACC,QAAQ,EAAC;IAE1C,MAAM,CAACC,UAAWC,YAAY,GAAG,IAAA,iNAAQ,EAAC,EAAE;IAC5C,MAAMC,WAAW,CAACC,QAAUF,YAAa,CAACG,OAAS;gBAACD;mBAAUC;aAAK;IAEhE,qBACI,8OAACP,gBAAgBQ,QAAQ;QAACC,OAAO;YAACJ;YAAUF;QAAQ;kBACjDD;;;;;;AAGX;AAEO,MAAMQ,cAAc,IAAM,IAAA,mNAAU,EAACV"}}]
+}

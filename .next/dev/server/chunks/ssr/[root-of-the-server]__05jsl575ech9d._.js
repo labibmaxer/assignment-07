@@ -60,14 +60,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/data/friends.json'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 ;
 ;
 ;
-const Hero = async ()=>{
-    const data = await fetch("http://localhost:3000/friends.json");
-    const friends = await data.json();
-    console.log(friends);
+;
+const Hero = ()=>{
     const connected = friends.filter((friend)=>friend.status === "connected").length;
     const overdue = friends.filter((friend)=>friend.status === "overdue").length;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -80,7 +83,7 @@ const Hero = async ()=>{
                     children: " Friends to keep close in your life"
                 }, void 0, false, {
                     fileName: "[project]/src/components/home.jsx",
-                    lineNumber: 14,
+                    lineNumber: 13,
                     columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -89,14 +92,14 @@ const Hero = async ()=>{
                         "Your personal shelf of meaningful connections. Browse, tend, and nurture the ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 15,
+                            lineNumber: 14,
                             columnNumber: 120
                         }, ("TURBOPACK compile-time value", void 0)),
                         "relationships that matter most. "
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home.jsx",
-                    lineNumber: 15,
+                    lineNumber: 14,
                     columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -104,14 +107,14 @@ const Hero = async ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaPlus"], {}, void 0, false, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 17,
+                            lineNumber: 16,
                             columnNumber: 70
                         }, ("TURBOPACK compile-time value", void 0)),
                         "  Add a Friend"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home.jsx",
-                    lineNumber: 17,
+                    lineNumber: 16,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -125,7 +128,7 @@ const Hero = async ()=>{
                                     children: friends.length
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 21,
+                                    lineNumber: 20,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -133,13 +136,13 @@ const Hero = async ()=>{
                                     children: "Total Friends"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 22,
+                                    lineNumber: 21,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 20,
+                            lineNumber: 19,
                             columnNumber: 3
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -150,7 +153,7 @@ const Hero = async ()=>{
                                     children: connected
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 26,
+                                    lineNumber: 25,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -158,13 +161,13 @@ const Hero = async ()=>{
                                     children: "Connected"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 27,
+                                    lineNumber: 26,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 25,
+                            lineNumber: 24,
                             columnNumber: 3
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -175,7 +178,7 @@ const Hero = async ()=>{
                                     children: overdue
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 31,
+                                    lineNumber: 30,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -183,13 +186,13 @@ const Hero = async ()=>{
                                     children: "Overdue"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 32,
+                                    lineNumber: 31,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 30,
+                            lineNumber: 29,
                             columnNumber: 3
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -200,7 +203,7 @@ const Hero = async ()=>{
                                     children: "12"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 35,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -208,19 +211,19 @@ const Hero = async ()=>{
                                     children: "Interactions This Month"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 37,
+                                    lineNumber: 36,
                                     columnNumber: 5
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 35,
+                            lineNumber: 34,
                             columnNumber: 3
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home.jsx",
-                    lineNumber: 19,
+                    lineNumber: 18,
                     columnNumber: 15
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -244,12 +247,12 @@ const Hero = async ()=>{
                                                         className: "h-full w-full object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home.jsx",
-                                                        lineNumber: 47,
+                                                        lineNumber: 46,
                                                         columnNumber: 5
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home.jsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 45,
                                                     columnNumber: 3
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -257,7 +260,7 @@ const Hero = async ()=>{
                                                     children: friend.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home.jsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 49,
                                                     columnNumber: 3
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -268,7 +271,7 @@ const Hero = async ()=>{
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/home.jsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 50,
                                                     columnNumber: 3
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -278,50 +281,50 @@ const Hero = async ()=>{
                                                         children: friend.status
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home.jsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 54,
                                                         columnNumber: 5
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home.jsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 52,
                                                     columnNumber: 3
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/home.jsx",
-                                            lineNumber: 45,
+                                            lineNumber: 44,
                                             columnNumber: 5
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/home.jsx",
-                                        lineNumber: 44,
+                                        lineNumber: 43,
                                         columnNumber: 4
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home.jsx",
-                                    lineNumber: 43,
+                                    lineNumber: 42,
                                     columnNumber: 58
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, friend.id, true, {
                             fileName: "[project]/src/components/home.jsx",
-                            lineNumber: 43,
+                            lineNumber: 42,
                             columnNumber: 1
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/src/components/home.jsx",
-                    lineNumber: 40,
+                    lineNumber: 39,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/home.jsx",
-            lineNumber: 13,
+            lineNumber: 12,
             columnNumber: 13
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/home.jsx",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };

@@ -32,12 +32,16 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fi/index.mjs [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/data/friends.json'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
 ;
 ;
 const FriendDetails = async ({ params })=>{
     const { id } = await params;
-    const res = await fetch("http://localhost:3000/friends.json");
-    const friends = await res.json();
     const friend = friends.find((f)=>String(f.id) === id);
     const connected = friends.filter((friend)=>friend.status === "connected").length;
     const overdue = friends.filter((friend)=>friend.status === "overdue").length;
@@ -59,19 +63,19 @@ const FriendDetails = async ({ params })=>{
                                         className: "h-full w-full object-cover"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/friends/[id]/page.js",
-                                        lineNumber: 23,
+                                        lineNumber: 21,
                                         columnNumber: 9
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 22,
+                                    lineNumber: 20,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "mt-3 text-lg font-bold text-gray-800"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 25,
+                                    lineNumber: 23,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -81,12 +85,12 @@ const FriendDetails = async ({ params })=>{
                                         children: friend.status
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/friends/[id]/page.js",
-                                        lineNumber: 27,
+                                        lineNumber: 25,
                                         columnNumber: 9
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 26,
+                                    lineNumber: 24,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -94,7 +98,7 @@ const FriendDetails = async ({ params })=>{
                                     children: friend.bio
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 30,
+                                    lineNumber: 28,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -106,13 +110,13 @@ const FriendDetails = async ({ params })=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 31,
+                                    lineNumber: 29,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 21,
+                            lineNumber: 19,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -120,14 +124,14 @@ const FriendDetails = async ({ params })=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FiBell"], {}, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 35,
+                                    lineNumber: 33,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 " Snooze 2 Weeks"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 34,
+                            lineNumber: 32,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -135,14 +139,14 @@ const FriendDetails = async ({ params })=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FiArchive"], {}, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 38,
+                                    lineNumber: 36,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 " Archive"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 37,
+                            lineNumber: 35,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -150,20 +154,20 @@ const FriendDetails = async ({ params })=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FiTrash2"], {}, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 41,
+                                    lineNumber: 39,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 " Delete"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 40,
+                            lineNumber: 38,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/friends/[id]/page.js",
-                    lineNumber: 20,
+                    lineNumber: 18,
                     columnNumber: 3
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -180,7 +184,7 @@ const FriendDetails = async ({ params })=>{
                                             children: friend.days_since_contact
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 50,
+                                            lineNumber: 48,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -188,13 +192,13 @@ const FriendDetails = async ({ params })=>{
                                             children: "Days Since Contact"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 51,
+                                            lineNumber: 49,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 49,
+                                    lineNumber: 47,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -205,7 +209,7 @@ const FriendDetails = async ({ params })=>{
                                             children: friend.goal
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 54,
+                                            lineNumber: 52,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -213,13 +217,13 @@ const FriendDetails = async ({ params })=>{
                                             children: "Goal (Days)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 55,
+                                            lineNumber: 53,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 53,
+                                    lineNumber: 51,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -230,7 +234,7 @@ const FriendDetails = async ({ params })=>{
                                             children: friend.next_due_date
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 58,
+                                            lineNumber: 56,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -238,19 +242,19 @@ const FriendDetails = async ({ params })=>{
                                             children: "Next Due"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 59,
+                                            lineNumber: 57,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 57,
+                                    lineNumber: 55,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 48,
+                            lineNumber: 46,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -264,7 +268,7 @@ const FriendDetails = async ({ params })=>{
                                             children: "Relationship Goal"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 66,
+                                            lineNumber: 64,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -272,13 +276,13 @@ const FriendDetails = async ({ params })=>{
                                             children: "Edit"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 67,
+                                            lineNumber: 65,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 65,
+                                    lineNumber: 63,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -290,19 +294,19 @@ const FriendDetails = async ({ params })=>{
                                             children: " days"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 70,
+                                            lineNumber: 68,
                                             columnNumber: 23
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 69,
+                                    lineNumber: 67,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 64,
+                            lineNumber: 62,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,7 +317,7 @@ const FriendDetails = async ({ params })=>{
                                     children: "Quick Check-In"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 76,
+                                    lineNumber: 74,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,14 +330,14 @@ const FriendDetails = async ({ params })=>{
                                                     className: "text-xl"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                                    lineNumber: 79,
+                                                    lineNumber: 77,
                                                     columnNumber: 11
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 " Call"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 78,
+                                            lineNumber: 76,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -343,14 +347,14 @@ const FriendDetails = async ({ params })=>{
                                                     className: "text-xl"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                                    lineNumber: 82,
+                                                    lineNumber: 80,
                                                     columnNumber: 11
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 " Text"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 81,
+                                            lineNumber: 79,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -360,43 +364,43 @@ const FriendDetails = async ({ params })=>{
                                                     className: "text-xl"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                                    lineNumber: 85,
+                                                    lineNumber: 83,
                                                     columnNumber: 11
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 " Video"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/friends/[id]/page.js",
-                                            lineNumber: 84,
+                                            lineNumber: 82,
                                             columnNumber: 9
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/friends/[id]/page.js",
-                                    lineNumber: 77,
+                                    lineNumber: 75,
                                     columnNumber: 7
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/friends/[id]/page.js",
-                            lineNumber: 75,
+                            lineNumber: 73,
                             columnNumber: 5
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/friends/[id]/page.js",
-                    lineNumber: 46,
+                    lineNumber: 44,
                     columnNumber: 3
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/friends/[id]/page.js",
-            lineNumber: 18,
+            lineNumber: 16,
             columnNumber: 1
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/app/friends/[id]/page.js",
-        lineNumber: 16,
+        lineNumber: 14,
         columnNumber: 11
     }, ("TURBOPACK compile-time value", void 0));
 };
