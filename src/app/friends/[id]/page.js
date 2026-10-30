@@ -14,7 +14,7 @@ const FriendDetails =  async ({params}) => {
           <div>
  
 <div className="mx-auto grid max-w-5xl grid-cols-1 gap-4 px-4 py-10 md:grid-cols-3">
-  {/* LEFT COLUMN */}
+ 
   <div className="space-y-3 md:col-span-1">
     <div className="card bg-base-100 p-6 text-center shadow-sm">
       <div className="mx-auto h-20 w-20 overflow-hidden rounded-full bg-gray-200">
@@ -39,10 +39,9 @@ const FriendDetails =  async ({params}) => {
       <FiTrash2 /> Delete
     </button>
   </div>
-
-  {/* RIGHT COLUMN */}
+ 
   <div className="space-y-4 md:col-span-2">
-    {/* 3 stat cards */}
+    
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
       <div className="card bg-base-100 py-6 text-center shadow-sm">
         <h3 className="text-3xl font-bold text-[#244D3F]">{friend.days_since_contact}</h3>
@@ -58,7 +57,7 @@ const FriendDetails =  async ({params}) => {
       </div>
     </div>
 
-    {/* Relationship goal */}
+    
     <div className="card bg-base-100 p-6 shadow-sm">
       <div className="flex items-center justify-between">
         <h3 className="font-semibold text-[#244D3F]">Relationship Goal</h3>
@@ -69,7 +68,7 @@ const FriendDetails =  async ({params}) => {
       </p>
     </div>
 
-    {/* Quick check-in */}
+   
    <div className="card bg-base-100 p-6 shadow-sm">
   <h3 className="font-semibold text-[#244D3F]">Quick Check-In</h3>
   <CheckInbuttons friend={friend} />
