@@ -152,3 +152,27 @@
 {"timestamp":"00:19:45.507","source":"Browser","level":"ERROR","message":"./src/components/CheckInbuttons.jsx:14:46\nError: Expected ',', got ';'\n  12 |         type,\n  13 |         title : `${type} with ${friend.name}`,\n> 14 |         date: new Date().toLocaleDateString();\n     |                                              ^\n  15 |\n  16 |\n  17 |\n\nParsing ecmascript source code failed\n\nImport trace:\n  Server Component:\n    ./src/components/CheckInbuttons.jsx\n    ./src/app/friends/[id]/page.js "}
 {"timestamp":"00:19:45.508","source":"Server","level":"ERROR","message":"[browser] \"./src/components/CheckInbuttons.jsx:14:46\\nError: Expected ',', got ';'\\n  12 |         type,\\n  13 |         title : `${type} with ${friend.name}`,\\n> 14 |         date: new Date().toLocaleDateString();\\n     |                                              ^\\n  15 |\\n  16 |\\n  17 |\\n\\nParsing ecmascript source code failed\\n\\nImport trace:\\n  Server Component:\\n    ./src/components/CheckInbuttons.jsx\\n    ./src/app/friends/[id]/page.js\" \"\""}
 {"timestamp":"00:19:46.930","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:21:30.861","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:22:30.117","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:22:33.244","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:22:34.390","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"00:22:35.920","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:22:38.863","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:23:56.727","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:24:02.660","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"00:24:06.517","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:24:07.805","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:24:08.862","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:24:10.771","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:24:13.612","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:24:15.494","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:24:17.434","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:24:18.634","source":"Server","level":"LOG","message":"✓ Compiled in 70ms"}
+{"timestamp":"00:24:44.673","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:25:27.648","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:25:32.608","source":"Server","level":"LOG","message":"✓ Compiled in 58ms"}
+{"timestamp":"00:25:37.261","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:26:03.930","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:26:23.699","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:26:27.003","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:26:32.060","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
